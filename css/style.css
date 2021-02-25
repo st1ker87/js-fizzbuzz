@@ -38,7 +38,7 @@ input {
 .btn {
     height: 60px;
     width: 150px;
-    margin: 20px auto;
+    margin-top: 30px;
     font-size: 1.6em;
     font-weight: 800;
     background-color: white;
@@ -48,7 +48,7 @@ input {
     box-shadow: 2px 2px 2px grey;
     transition: 0.3s;
 }
-.btn:hover {
+.btn {
     transform: scale(1.1);
     background-color: lightgray;
     color: #610000;
@@ -57,6 +57,7 @@ input {
 
 #reset {
     display: none;
+    margin: 20px auto;
 }
 
 
