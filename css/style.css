@@ -1,0 +1,76 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* display dei comandi */
+.starter {
+    width: 50%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+input {
+    line-height: 60px;
+    height: 2em;
+    width: 100px;
+    text-align: center;
+    margin: 0 20px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    height: 60px;
+    width: 150px;
+    margin: 20px auto;
+    font-size: 1.6em;
+    font-weight: 800;
+    background-color: white;
+    color: #610000;
+    border: 1px solid #242323;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px grey;
+    transition: 0.3s;
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: lightgray;
+    color: #610000;
+    box-shadow: 2px 2px 1px #610000;
+}
+
+#reset {
+    display: none;
+}
+
+
+/* display del gioco */
+#numeri {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 60vh;
+    margin-top: 10px;
+}
+
+h3 {
+    height: 6vh;
+    padding: 5px 10px;
+    border-right: 1px solid black;
+}
